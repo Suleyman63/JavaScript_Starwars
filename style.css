@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-color: black;  
+    font-family: "Press Start 2P", cursive !important;
+    
+}
+
+#canvas{
+   cursor: pointer;
+
+}
+
+#score{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+}
+
+
+#kills{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    padding: 1rem;
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+}
+
+#btn-div{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   top: 50%;
+   left: 50%;
+   background-color: palegoldenrod;
+  
+
+
+}
+
+#start{
+    position: absolute;
+    padding: 2rem;
+    width: 250px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: red;
+   color: #fff;
+   font-size: 20px;
+   border-radius: 10px;
+   font-family: "Press Start 2P", cursive !important;
+}
+#text{
+    position: absolute;
+    padding: 2rem;
+    width: 350px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: blue;
+   font-size: 15px;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.stern{
+    position: absolute;
+    border-radius: 50%;
+}
+
